@@ -1,23 +1,18 @@
-# linear-regression-basics
+## Project Explanation
 
-## توضیح پروژه 
+Linear Regression is a machine learning model that tries to find a linear relationship between dependent and independent variables.  
+It can be used to predict the dependent variable based on input features.  
+In this example, we use study time as the feature and grade as the label.
 
-linear regression
-یک مدل یادگیری ماشین است که سعی می کند بین متغیر های وابسته و مستقل یک رابطه ی خطی برقرار بکند 
-و بتوان بر اساس ویژگی ها یا Features , متغیر وابسته را پیش بینی کرد
-در این مثال از ساعت  مطالعه به عنوان feature  و از نمره به عنوان label استفاده می کنیم 
+## Libraries Used
 
-## کتابخانه ها 
+◉ numpy
+◉ matplotlib
+◉ scikit-learn
 
-کتابخانه های استفاده شده : 
-numpy 
-matplotlib 
-scikit-learn
+## Files
 
-## فایل ها 
-
-main.py 
-از صفر بدون استفاده از کتابخانه الگوریتم (linear regression) پیاده سازی شده است
-برای پیش بینی نمره براساس ساعت مطالعه فایل test-data.py را اجرا کنید و مقدار ساعت مطالعه را وارد کنید .
-linear-lib.py  
-با استفاده از کتابخانه ی linear regression پیاده سازی شده است .
+- main.py: Implements the Linear Regression algorithm from scratch (without using any library).  
+  To predict grades based on study time, run test-data.py and enter the study time as input.
+  
+- linear-lib.py: Implements Linear Regression using the sklearn.linear_model library.
